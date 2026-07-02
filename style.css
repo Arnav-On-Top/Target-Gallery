@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, black, skyblue);
+}
+.gallery {
+    margin-top: 50px;
+}
+.target {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+.target:hover {
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    box-shadow: 0px 0px 20px yellow;
+}
